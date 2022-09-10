@@ -1,4 +1,4 @@
-# Debian Preseed Builder for Servers
+# Debian Preseed ISO Builder
 
 A simple shell script for generating an iso image with a preseed file to help automate the installation of Debian. 
 
@@ -7,6 +7,10 @@ A simple shell script for generating an iso image with a preseed file to help au
 Install the following packages. 
 ```shell
 sudo apt install -y xorriso p7zip-full fakeroot binutils isolinux
+```
+A directory named iso in same folder as this script. 
+```shell
+mkdir iso
 ```
 
 ## How to Run
